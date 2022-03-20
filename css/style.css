@@ -1,10 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica', cursive;
+}
+body{
+    overflow: hidden;
+}
+
 #canvas1{
-    border: 1px solid black;
+    top: 0;
+    left: 0;
+    background-color: #ffe97f;
+}
+img{
+    display: none;
+}
+#loading{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
-    background-color: #ffe97f;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
 }
