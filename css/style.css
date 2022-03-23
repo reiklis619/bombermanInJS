@@ -11,7 +11,8 @@ body{
 #canvas1{
     top: 0;
     left: 0;
-    background-color: #ffe97f;
+    background-image: url("../resources/game-map/bombertux\(modifi.png");
+    background-repeat: no-repeat;
 }
 img{
     display: none;
