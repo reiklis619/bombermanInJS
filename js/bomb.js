@@ -1,5 +1,5 @@
 export default class Bomb {
-    constructor(gameWidth, gameHeight) {
+    constructor(gameWidth, gameHeight,) {
         this.gameWidth = gameWidth;
         this.gameHeight = gameHeight;
         this.states = [];
@@ -7,8 +7,8 @@ export default class Bomb {
         this.image = document.getElementById('bomberImage');
         this.width = 16;
         this.height = 16;
-        this.y = 240;
-        this.x = 240;
+        this.y = 20;
+        this.x = 20;
         this.posX = 51;
         this.posY = 264;
         this.frameX = 0;
@@ -16,5 +16,8 @@ export default class Bomb {
     }
     draw(context){
         context.drawImage(this.image, this.posX+(this.frameX*this.disX),this.posY,this.width,this.height, this.x, this.y,this.height*3 ,this.width*3);
+    }
+    explotar(){
+        
     }
 }
